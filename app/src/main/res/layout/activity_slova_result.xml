@@ -34,17 +34,17 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="470dp"
+        android:layout_marginTop="8dp"
         android:text="Набранные баллы"
         android:textColor="@color/textcolor"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/btnStartTimer"
+        android:id="@+id/btnBack"
         android:layout_width="362dp"
         android:layout_height="49dp"
         android:layout_marginBottom="98dp"
@@ -59,8 +59,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="156dp"
+        android:layout_height="188dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,11 +72,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="119dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="253dp"
-        android:layout_marginBottom="184dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/vector" />
 
     <TextView
